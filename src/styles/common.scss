@@ -1,0 +1,82 @@
+@import "./mixins.scss";
+@import "./variables.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background:var(--primary-1);
+  color:var(--primary-4);
+}
+
+.display-none {
+    display: none !important;
+  }
+
+.d-flex {
+  display: flex !important;
+}
+.w-100 {
+  width: 100% !important;
+}
+
+%clearfix {
+  &:hover {
+    background-color: black;
+    color: #fff;
+  }
+}
+
+/* margin and padding */
+@for $i from 1 through 5 {
+  $num: $i * 10;
+  //margin
+  .m-#{$num} {
+    margin: $num + px !important ;
+  }
+  .mt-#{$num} {
+    margin-top: $num + px !important ;
+  }
+  .mr-#{$num} {
+    margin-right: $num + px !important ;
+  }
+  .mb-#{$num} {
+    margin-bottom: $num + px !important ;
+  }
+  .ml-#{$num} {
+    margin-left: $num + px !important ;
+  }
+  .mx-#{$num} {
+    margin-left: $num + px !important ;
+    margin-right: $num + px !important ;
+  }
+  .my-#{$num} {
+    margin-top: $num + px !important ;
+    margin-bottom: $num + px !important ;
+  }
+  //padding
+  .p-#{$num} {
+    padding: $num + px !important ;
+  }
+  .pt-#{$num} {
+    padding-top: $num + px !important ;
+  }
+  .pr-#{$num} {
+    padding-right: $num + px !important ;
+  }
+  .pb-#{$num} {
+    padding-bottom: $num + px !important ;
+  }
+  .pl-#{$num} {
+    padding-left: $num + px !important ;
+  }
+  .px-#{$num} {
+    padding-left: $num + px !important ;
+    padding-right: $num + px !important ;
+  }
+  .py-#{$num} {
+    padding-top: $num + px !important ;
+    padding-bottom: $num + px !important ;
+  }
+}

@@ -1,0 +1,23 @@
+// Lighten/Darken: These functions allow you to lighten or darken a color by a percentage value. ex: lighten($color, 20%);
+
+:root {
+  /** font sizes **/
+  /** colors **/
+  --primary-1: #ED5B42;
+  --primary-2: #F4AA85;
+  --primary-3: #C3DAE0;
+  --primary-4: #414247;
+
+  --line-height-28: 28px;
+  /* RGB COLORS */
+  /* BOX SHADOW */
+  --box-shadow-1: 0 3px 6px 0 rgba(var(--color-rgb-black), 0.16); /* Header */
+
+  /** fonts **/
+  // --font-work-sans-regular: 'WorkSansRegular', serif;
+  // --font-work-sans-medium: 'WorkSansMedium', serif;
+  // --font-work-sans-semi-bold: 'WorkSansSemiBold', serif;
+  // --font-work-sans-bold: 'WorkSansBold', serif;
+  // --font-work-sans-variable: 'WorkSansVariable', serif;
+  // --font-work-sans-light: 'WorkSansLight', serif;
+}
