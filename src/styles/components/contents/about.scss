@@ -1,0 +1,44 @@
+.about-container{
+    padding: 0 60px;
+    .nav-tabs{
+        display: flex;
+        align-items:center ;
+        justify-content: center;
+        .nav-item{
+            max-width: 450px;
+            button{ color: var(--primary-4);}
+            .active{
+                font-weight: bold;
+                color: var(--primary-1);
+            }
+        } 
+    }
+    // .tab-content{
+
+    // }
+    .tab-pane{
+        min-height: 500px;
+      .who-iam-box{
+        padding: 20px;
+        h2{
+            position: relative;
+            z-index: 2;
+            padding: 28px;
+            text-align: center;
+            color: var(--primary-2);
+        }
+        .face-img{
+            max-height: 350px;
+            
+            @media (min-width: 1200px){
+                margin-top: -70px;
+            }
+        }
+      }
+    }
+}
+
+.section-heading{
+    text-align: center;
+    padding: 60px 0;
+}

@@ -1,8 +1,14 @@
 @import "./mixins.scss";
 @import "./variables.scss";
 
+body{
+  background-color: var(--primary-3);
+}
+
 * {
   box-sizing: border-box;
+  font-size: var(--global-primary-font-size);
+  line-height:var(--line-height-28);
 }
 
 ::selection {
@@ -10,17 +16,52 @@
   color:var(--primary-4);
 }
 
+button,a{
+  cursor: pointer !important;
+}
+
+a{
+  color:var(--primary-2) !important;
+  font-weight:600;
+  text-decoration: none !important;
+}
+
+ul{
+  list-style-type: square;
+}
+
+// common class
 .display-none {
     display: none !important;
   }
 
-.d-flex {
+.d-flex,.d-flex-warp {
   display: flex !important;
+}
+.d-flex-warp{
+  flex-wrap: wrap;
+  .f-item {
+    /* Styles for individual flex items */
+    // width: calc(33.33% - 20px); /* Adjust the width based on your design */
+    margin: 10px;
+    box-sizing: border-box;
+  }
 }
 .w-100 {
   width: 100% !important;
 }
+.fw-6{
+  font-weight: 600 !important;
+}
 
+
+
+/*
+* Example with floated child elements
+* creates an invisible element
+* @extend using time need to use in front of the %class
+*
+*/ 
 %clearfix {
   &:hover {
     background-color: black;
@@ -29,11 +70,14 @@
 }
 
 /* margin and padding */
-@for $i from 1 through 5 {
+@for $i from 1 through 8 {
   $num: $i * 10;
   //margin
   .m-#{$num} {
     margin: $num + px !important ;
+  }
+  .f-item-#{$num} {
+    width: $i * 10% !important ;
   }
   .mt-#{$num} {
     margin-top: $num + px !important ;

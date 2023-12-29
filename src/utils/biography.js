@@ -22,38 +22,70 @@ export const biography = {
  </div>`,
   education: [
     {
-      name: "SSLC",
-      percentage: "99%",
-      year: "2010-2015",
-      institute: "XXXXInstitute",
-      url: "https://www.rkrschool.in/management.php",
-      address: "Udumalpet",
+      name: "BSC Computer Technology",
+      percentage: " 69% ",
+      year: "2017-2020",
+      institute: "Sree Saraswathi Thyagaraja College",
+      branch: "Computer Technology",
+      url: "https://stc.ac.in/",
+      address: " Pollachi ",
     },
     {
       name: "HSC",
-      percentage: "99%",
+      percentage: " 68% ",
       year: "2010-2015",
-      institute: "XXXXInstitute",
-      url: "https://www.rkrschool.in/management.php",
-      address: "Udumalpet",
+      institute: "RKR Higher Secondary School",
+      url: "https://rkreducation.in/",
+      address: " Udumalpet ",
     },
     {
-      name: "BSC",
-      percentage: "99%",
-      year: "2017-2020",
-      institute: "XXXXInstitute",
-      branch: "computertechnology",
-      url: "https://stc.ac.in/",
-      address: "Udumalpet",
+      name: "SSLC",
+      percentage: " 91.02% ",
+      year: "2010-2015",
+      institute: "Government High School",
+      url: "https://www.rkrschool.in/management.php",
+      address: " Udumalpet ",
     },
+    // {
+    //   name: "MCA",
+    //   percentage: "69%",
+    //   year: "2021-2023",
+    //   institute: " Bharathiar University",
+    //   branch: "MCA",
+    //   url: "https://b-u.ac.in/",
+    //   address: "Coimbatore",
+    // },
+  ],
+  certification: [
+    {
+      name: 'Java Course',
+      institute: 'Jspider',
+      url: 'https://www.jspiders.com/',
+      address: ' Bangaluru ',
+      year: '2020'
+    },
+    {
+      name: 'English Typewriting with Distinction',
+      institute: 'Murugan Typewriting',
+      url: '',
+      address: ' Udumalpet ',
+      year: '2015'
+    },
+    {
+      name : 'Problem Solving',
+      institute : 'HackerRank',
+      url: 'https://www.hackerrank.com/dheenathayalanb2',
+      address: ' won 5-stars ',
+      year: '2020'
+    }
   ],
   work: [
     {
-      name: "ABC-company",
+      name: "CONTENTENABLERS INDIA PRIVATE LIMITED",
       description:
         "One of the fastest growing companies in the industry and proficiency in areas such as mobile and web app design and development.",
-      address: "",
-      role: "Freelancing-developer",
+      address: "Bengaluru",
+      role: "Software Developer",
       technology: [
         "react",
         "angular",
@@ -65,73 +97,70 @@ export const biography = {
         "scss",
       ],
       year: "07-2020 to 10-2020",
-    },
-    {
-      name: "Ce-company",
-      description:
-        "One of the fastest growing companies in the industry and proficiency in areas such as mobile and web app design and development.",
-      address: "Bangalore, india",
-      role: "Software developer",
-      technology: [
-        "react",
-        "angular",
-        "nodejs",
-        "postman",
-        "filezilla",
-        "Ant-ui",
-        "mui",
-        "scss",
-      ],
-      year: "07-2021 to 01-2023",
-    },
+    }
   ],
-  skills: [
-    // framework:'React, Angular, Express',
-    // server:'nodejs',
-    // ui_libraries:'MUI, ANTD, Bootstrap',
-    // data_base:'MongoDB, SQL',
-    // programming_language:'Javascript, Java',
-    // tools:'VS Code, Postman, filezilla',
-    { name: "React" /* proficiency:'100%' */ },
-    { name: "Angular" },
-    { name: "Javascript, Java" },
-    { name: "Redux" },
-    { name: "middleware thunk" },
-    { name: "HTML5 & CSS/SCSS" },
-    { name: "UI Libraries(MUI,ANTD,Bootstrap)" },
-    { name: "RND Tasks" },
-    { name: "nodejs & Express" },
-    { name: "MongoDB & SQL" },
-  ],
+  skills: {
+     "Programming Language":{
+      "Javascript":{},
+      "Core Java":{},
+      "C":{}
+    },
+    "Web Technology":{
+      "HTML":{},
+      "CSS(Scss)":{},
+      "React js":{},
+      "Redux Saga":{},
+      "Angular12 (Basic)":{}
+    },
+    "Runtime Server":{
+      "Node JS(Basic)":{},
+    },
+    "Data Bases":{
+      "Mongo DB(Basic)":{},
+      "SQL":{}
+    },
+    "Tools / IDE":{
+        "Visual Studio Code":{},
+        "Azure DevOps":{},
+        "Postman":{},
+        "Chrome Developer Tools":{}
+    },   
+    "Version Control Tool":{
+      "Git":{}
+    }                       
+  },
   projects: [
     {
-      name: "Logistic",
-      description:
-        "Cloud-based TMS (Transport Management System)  is a logistics platform that uses technology to help businesses plan, execute and optimize the physical movement of goods, both incoming and outgoing, and making sure the shipment is compliant, proper documentation is managed",
+      name: "CEAuthor(RLM)",
+      description:"CEAuthor streamlines training with 1,000+ ready-to-use components for HR, safety, and compliance. Effortlessly create engaging, customizable online courses for efficient training in minutes",
+      link: "private",
+      status: "on-going",
+      technology: ["Angular11,postman,ANTD,Bootstrap", "SCSS"],
+    },
+    {
+      name: "CEAssets",
+      description:"Developed a versatile assets library for images, GIFs, audio, and videos, featuring a unique capability to seamlessly create assets using OpenAI integration. This significantly improved user experience by simplifying and streamlining the content creation process.",
+      link: "private",
+      status: "on-going",
+      technology: ["Angular11,postman,ANTD,Bootstrap", "SCSS"],
+    },
+    {
+      name: "Anti-Money Laundering (AML)",
+      description:"This application provides training, guiding organizations through steps, evaluating risk scores, and generating program policy certificates for simplified compliance in Anti-Money Laundering",
       link: "private",
       status: "on-going",
       technology: ["Angular11,postman,ANTD,Bootstrap", "SCSS"],
     },
     {
       name: "Logistic",
-      description:
-        "Cloud-based TMS (Transport Management System)  is a logistics platform that uses technology to help businesses plan, execute and optimize the physical movement of goods, both incoming and outgoing, and making sure the shipment is compliant, proper documentation is managed",
+      description:"Cloud-based TMS (Transport Management System)  is a logistics platform that uses technology to help businesses plan, execute and optimize the physical movement of goods, both incoming and outgoing, and making sure the shipment is compliant, proper documentation is managed",
       link: "private",
       status: "on-going",
       technology: ["Angular11,postman,ANTD,Bootstrap", "SCSS"],
     },
     {
-      name: "Logistic",
-      description:
-        "Cloud-based TMS (Transport Management System)  is a logistics platform that uses technology to help businesses plan, execute and optimize the physical movement of goods, both incoming and outgoing, and making sure the shipment is compliant, proper documentation is managed",
-      link: "private",
-      status: "on-going",
-      technology: ["Angular11,postman,ANTD,Bootstrap", "SCSS"],
-    },
-    {
-      name: "Logistic",
-      description:
-        "Cloud-based TMS (Transport Management System)  is a logistics platform that uses technology to help businesses plan, execute and optimize the physical movement of goods, both incoming and outgoing, and making sure the shipment is compliant, proper documentation is managed",
+      name: "Ruthra Management(RM)",
+      description:"The project has developed the QR Reader app using Flutter &amp; Admin dashboard on Angular by using this app to scan QR codes of product and get complete details like product information, images, and pricing, reviews and highlights, offers of the product to Purchase.",
       link: "private",
       status: "on-going",
       technology: ["Angular11,postman,ANTD,Bootstrap", "SCSS"],
@@ -150,7 +179,7 @@ export const biography = {
     },
     {
       href: "https://www.hackerrank.com/dheenathayalanb2",
-      icons: "partition",
+      icons: "hackerrank",
       name: "HackerRank",
     },
     {
@@ -174,14 +203,14 @@ export const biography = {
       name: "Facebook",
     },
   ],
-  languageData: [
-    {
-      language: "English",
-      rate: 4.5,
-    },
+  language: [
     {
       language: "Tamil",
       rate: 5,
+    },
+    {
+      language: "English",
+      rate: 4.5,
     },
     {
       language: "Kannada",

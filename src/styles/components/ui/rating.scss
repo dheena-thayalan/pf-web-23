@@ -1,0 +1,12 @@
+.rating-container{
+    span{
+        font-size: 23px;
+        &.rated{
+            color: var(--primary-2);
+        }
+        &.non-rating{
+            color:var(--primary-4)
+        }
+        cursor: pointer;
+    }
+}
