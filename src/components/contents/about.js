@@ -7,6 +7,7 @@ import TabPannel from "../ui/tabpanel/index.js";
 import { biography } from "../../utils/biography";
 import CustomList from "../ui/list/index.js";
 import MapHook from "../../utils/hooks/maphook.js";
+import Media from "../ui/socialmedia/index.js";
 
 const About = () => {
   const { education, certification, quotes, about_me, skills, language } =
@@ -33,13 +34,16 @@ const About = () => {
               <div className="col-lg-12 quotes">
                 <h2 className="fw-6">{`❝ ${quotes || ""} ❞`} </h2>
               </div>
-              <div
-                className="col-md-6 col-lg-9"
-                // eslint-disable-next-line react/no-danger
-                dangerouslySetInnerHTML={{
-                  __html: about_me || "",
-                }}
-              />
+              <div className="col-md-6 col-lg-9">
+                <div
+                  className="col-md-6 col-lg-9"
+                  // eslint-disable-next-line react/no-danger
+                  dangerouslySetInnerHTML={{
+                    __html: about_me || "",
+                  }}
+                />
+                <Media />
+              </div>
               <div className="col-md-6 col-lg-3">
                 <img
                   className="face-img"
@@ -111,10 +115,10 @@ const About = () => {
   };
 
   return (
-    <div className="about-container">
+    <section id="about" className="about-container">
       <h2 className="section-heading">About </h2>
       <TabPannel data={aboutData() || []} dfKey={"Who I'am"} />
-    </div>
+    </section>
   );
 };
 

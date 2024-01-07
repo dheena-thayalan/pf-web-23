@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/media-has-caption */
 import React, { useState } from "react";
-import Button from "react-bootstrap/Button";
+import Button from "../ui/button/index";
 import DataHelper from "../../utils/DataHelper";
 import DeenaCe from "../../assets/videos/dheena_ce.mp4";
 
@@ -12,8 +12,9 @@ function Banner() {
   };
 
   return (
-    <div
+    <section
       className="banner-continuer"
+      id="home"
       style={{ backgroundImage: `url('assets/banner.gif')` }}
     >
       <div className="banner d-flex-warp">
@@ -23,9 +24,7 @@ function Banner() {
               __html: DataHelper?.SECTIONS?.Home?.banner || "",
             }}
           />
-          <Button className="btn" onClick={handlePlayIntro}>
-            Play Intro
-          </Button>
+          <Button label="Play Intro" type="button" onClick={handlePlayIntro} />
         </div>
         <div className={`intro-video ${isVideoPlaying ? "visible" : ""}`}>
           {isVideoPlaying && (
@@ -40,7 +39,7 @@ function Banner() {
           )}
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

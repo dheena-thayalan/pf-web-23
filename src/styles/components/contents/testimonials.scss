@@ -1,0 +1,11 @@
+.testimonials-continuer{
+    .carousel-item,.carousel-inner{
+        height: 250px;
+    }
+    .carousel-control-prev,.carousel-control-next{
+       span{
+        background-color:transparent !important;
+       } 
+    }
+
+}

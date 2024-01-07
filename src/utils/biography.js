@@ -7,6 +7,11 @@ export const biography = {
   s_name: "Dheena",
   email: "xxxx.gmail.com",
   mobile_no: "1025453525342",
+  // If you don't have an EmailJS account, you need to sign up.
+  // follow this *** https://www.emailjs.com/docs/examples/reactjs/
+  email_template_key:"template_a2a2k4k",
+  email_service_key:"service_l120buf",
+  email_public_key:"4Di-jYzRBGKUIs0MM",
   quotes:"For me, coding is the key to turning awesome concepts into reality",
   about_me: `<div class=profile-container>
   <article>
@@ -183,24 +188,24 @@ export const biography = {
       name: "HackerRank",
     },
     {
-      href: "https://www.instagram.com/_dheena__/",
-      icons: "instagram",
-      name: "Instagram",
-    },
-    {
       href: "https://github.com/dheena-thayalan",
       icons: "github",
       name: "GitHub",
     },
     {
-      href: "https://twitter.com/dheenat88556319",
-      icons: "twitter",
-      name: "twitter",
+      href: "https://www.instagram.com/_dheena__/",
+      icons: "instagram",
+      name: "Instagram",
     },
     {
       href: "https://www.facebook.com/vj.dheena/",
-      icons: "facebook",
+      icons:"facebook",
       name: "Facebook",
+    },
+    {
+      href: "https://twitter.com/dheenat88556319",
+      icons: "twitter",
+      name: "twitter",
     },
   ],
   language: [
@@ -215,6 +220,38 @@ export const biography = {
     {
       language: "Kannada",
       rate: 2.5,
+    },
+  ],
+  recognition:[
+    {
+      text:"Congratulations on reaching the one-year milestone with the team! Your dedication to learning and executing tasks has truly made a positive impact. As we embark on exciting projects, I believe your skills will continue to shine. Keep rocking dheena🤘!.",
+      by:"Anand Kumar Vimalanathan",
+      role:"Project Manager(CE)",
+      company:"Content enablers"
+    },
+    {
+      text:"Exciting news! Your hard work over the past year has earned you a well-deserved salary increase. We greatly appreciate your dedication and contributions to our success. Additionally, I'm thrilled to share that your role will be instrumental in shaping the new interactivity features in CEAuthor, making our courses even more engaging and impactful. Thank you for your continued efforts.",
+      by:"Nelson Joseph",
+      role:"General Manager, India Office",
+      company:"Content enablers"
+    }, 
+     {
+      text:"Congratulation Dheena!, Thank you for being a team player and working together with your team to finish projects on time. Your cooperation and dedication is greatly appreciated by your teammates and CE management.",
+      by:"Upendra Kola",
+      role:"Human Resources Manager",
+      company:"Content enablers"
+    },
+    {
+      text:"I want to express my deep appreciation for the hard work, time, effort, and expertise that you consistently bring to CE! Collaborating with such a highly skilled tech team makes this work truly exciting as we anticipate what innovative developments you have in store. None of our achievements this year would have been possible without your contributions. We are thrilled to embark on the CE Author project, and early client feedback indicates their excitement about the new course format and UI. Your ongoing efforts on the website and Storefront have been remarkable, even with the challenges they may present. Thank you for your unwavering support with client issues, deliverables, and development. Your dedication makes the Customer Success team shine. Your hard work does not go unnoticed, and we are immensely grateful for your efforts.",
+      by:"Kara Kupzyk(US)",
+      role:"Director, Customer Success",
+      company:"Content enablers"
+    },
+    {
+      text:"The AML program is fantastic, and the team did an excellent job mapping out the user flows and task handoffs. I enjoyed going through it this morning; the intuitive design and user-friendly interface make the overall experience even more enjoyable. You guys really nailed it!.",
+      by:"Brad Kabanuk(US)",
+      role:"Founder & President",
+      company:"Content enablers"
     },
   ],
 };

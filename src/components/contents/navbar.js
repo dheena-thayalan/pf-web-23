@@ -7,7 +7,7 @@ import DataHelper from "../../utils/DataHelper";
 
 function NavBar() {
   return (
-    <div>
+    <div className="navbar-container">
       <Navbar expand="sm" className="bg-body-tertiary mb-3">
         <Container fluid>
           {/* <Navbar.Brand href="#">Navbar Offcanvas</Navbar.Brand> */}

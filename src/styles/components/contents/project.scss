@@ -1,4 +1,12 @@
 .project-container{
     padding: 0 60px;
     min-height: 500px;
+    .carousel,.carousel-inner{
+        height: 280px;
+        .carousel-control-next, .carousel-control-prev{
+          margin-top: -35px;
+          opacity: .3;
+        }
+       
+    }
 }

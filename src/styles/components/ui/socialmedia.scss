@@ -1,0 +1,38 @@
+.social-media {
+  .media-box {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    .linkedin {
+      height: 37px;
+      width: 37px;
+      // border-radius: 3px;
+    }
+    .hackerrank {
+      height: 29px;
+      width: 29px;
+      border-radius: 4px;
+    }
+    .instagram {
+      height: 33px;
+      width: 33px;
+    }
+    .github {
+      border-radius: 4px;
+      height: 29px;
+    }
+    .twitter {
+      height: 36px;
+      width: 34px;
+      margin-top:8px
+    }
+    .facebook{
+      height: 31px;
+      width: 31px;
+    }
+  }
+  .resume-btn{
+    font-size:calc(var(--global-primary-font-size) * 1.2) !important ;
+    padding: 10px 52px !important;
+  }
+}

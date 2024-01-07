@@ -24,10 +24,31 @@ a{
   color:var(--primary-2) !important;
   font-weight:600;
   text-decoration: none !important;
+  &:hover{
+    color:var(--primary-1) !important;
+  }
+}
+
+.navbar-container{
+  nav{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    background-color: transparent !important;
+    a{
+      color: var(--primary-1) !important;
+      font-weight: 500;
+      text-transform: capitalize;
+    }
+  }
 }
 
 ul{
   list-style-type: square;
+}
+
+input:-internal-autofill-selected {
+  background-color: #fff !important;
 }
 
 // common class
@@ -54,6 +75,13 @@ ul{
   font-weight: 600 !important;
 }
 
+
+hr {
+  border: 0; /* No border */
+  height: 2px; /* Set the height of the line */
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0)); /* Gradient color */
+  margin: 20px 0; /* Adjust spacing above and below the line */
+}
 
 
 /*

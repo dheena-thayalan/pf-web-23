@@ -1,0 +1,16 @@
+.c-btn{
+    display: inline-block;
+    background: var(--primary-1);
+    color: #fff;
+    font-size:calc(var(--global-primary-font-size) * 1.8) ;
+    padding: 16px 36px;
+    margin: 13px 0;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid var(--primary-1);
+    transition: all 0.3s ease;
+    &:hover {
+      color: var(--black);
+      background: none;
+    }
+}

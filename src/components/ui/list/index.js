@@ -19,7 +19,7 @@ const CustomList = ({ items, title}) => {
             {item.content}
           </div>
           <div className="year">
-             {item.badgeValue}
+             {item?.badgeValue||null}
             </div>
         </ListGroup.Item>
       ))}

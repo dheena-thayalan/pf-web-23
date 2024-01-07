@@ -1,0 +1,56 @@
+.footer-continuer{
+    padding: 20px 60px;
+    min-height: 500px;
+    .footer-heading,h3,h4{
+        color: var(--primary-2)
+    }
+    .personal-info{
+        padding: 40px 0 0 120px;
+        display: flex;
+        flex-direction: column;
+        row-gap:23px;
+        .location{
+            display: flex;
+            img{
+                width:18px;
+                height: 21px;
+                margin-top: 4px;
+                margin-right: 8px;
+            }
+        }
+        .social-media{
+            align-items: flex-start;
+            flex-direction: column-reverse;
+            .resume-btn{
+                margin-top: 25px;
+                padding: 8px 52px !important;
+            }
+            h6{
+                display: none;
+            }
+        }
+    }
+    .email-send-box{
+        display:flex;
+        justify-content: end;
+        .send-btn{
+            padding: 8px 17px;
+            font-size: calc(var(--global-primary-font-size) * 1.5);
+            &:hover{
+                color: var(--primary-1) !important;
+            }
+        }
+    }
+    .custom-input{
+     border: none;
+     border-radius: 3px !important;
+     border-bottom:2px solid var(--primary-2);
+     font-size: var(--global-primary-font-size);
+     font-weight: 500;
+     margin: 10px 0;
+     &:focus{
+        border-color:var(--primary-1);
+        box-shadow:none !important;
+     }
+    }
+}

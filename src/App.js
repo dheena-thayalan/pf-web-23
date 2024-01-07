@@ -1,22 +1,12 @@
-import './styles/common.scss';
-import './App.css';
+/* eslint-disable react/react-in-jsx-scope */
+import "./styles/common.scss";
+import "./App.scss";
+import Layout from "./pages/layout";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Layout />
     </div>
   );
 }

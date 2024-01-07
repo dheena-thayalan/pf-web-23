@@ -1,4 +1,20 @@
 .carousel-container{
+    .carousel-control-prev,.carousel-control-next{
+        justify-content: end;
+        right: -2.8%;
+        margin-top: -25px;
+        opacity: .3;
+        span{
+            width:4rem;
+            height: 4rem;
+            background-color: var(--primary-2);
+            border-radius:50%;
+        }
+    }
+    .carousel-control-prev{
+        justify-content: start !important;
+        left: -2.8% !important;
+    }
     .carousel-item{
         min-height: 450px;
         .d-flex{
