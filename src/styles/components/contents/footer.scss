@@ -1,5 +1,5 @@
+@import '../../mixins.scss';
 .footer-continuer{
-    padding: 20px 60px;
     min-height: 500px;
     .footer-heading,h3,h4{
         color: var(--primary-2)
@@ -9,6 +9,9 @@
         display: flex;
         flex-direction: column;
         row-gap:23px;
+       @include for-laptop-up{
+          padding: 40px 0 0 12px;
+        }
         .location{
             display: flex;
             img{

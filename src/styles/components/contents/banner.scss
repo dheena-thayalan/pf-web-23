@@ -1,11 +1,19 @@
+@import '../../mixins.scss';
 .banner-continuer {
   min-height: 700px;
-
+ @include for-desktop-medium{
+  display: flex;
+  justify-content: center;
+ }
   .banner {
     align-items: center;
     justify-content: center;
     height: 100%;
     min-height: 700px;
+    @include for-laptop-up {
+      align-items: end;
+      padding-left: 30px;
+    }
     #background-video {
       // position: fixed;
       max-height: 700px;

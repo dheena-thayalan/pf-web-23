@@ -20,6 +20,19 @@ button,a{
   cursor: pointer !important;
 }
 
+section{
+  padding: 30px 60px;
+  margin: 0 20px;
+  @include for-ipad-pro-devices{ 
+    padding: 30px 30px;
+     --global-primary-font-size:14px;
+     }
+    @include for-ipad-pro-devices {
+    padding: 30px 16px;
+      --global-primary-font-size:12px; 
+    }
+}
+
 a{
   color:var(--primary-2) !important;
   font-weight:600;
@@ -77,10 +90,9 @@ input:-internal-autofill-selected {
 
 
 hr {
-  border: 0; /* No border */
-  height: 2px; /* Set the height of the line */
+  height: 2px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0)); /* Gradient color */
-  margin: 20px 0; /* Adjust spacing above and below the line */
+  margin: 20px !important;
 }
 
 

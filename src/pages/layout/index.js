@@ -12,7 +12,7 @@ function Layout() {
   return (
     <div>
       <NavBar />
-      <div className="mx-50">
+      <div className="content-page">
         <Banner />
         <About />
         <Project />

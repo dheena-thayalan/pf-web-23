@@ -1,6 +1,5 @@
+@import '../../mixins.scss';
 .project-container{
-    padding: 0 60px;
-    min-height: 500px;
     .carousel,.carousel-inner{
         height: 280px;
         .carousel-control-next, .carousel-control-prev{
@@ -9,4 +8,20 @@
         }
        
     }
+    .carousel-item{
+      min-height: 450px;
+      .d-flex{
+          justify-content: space-evenly;
+          gap: 20px;
+          .card-container{
+              max-width: 33%;
+              @include for-desktop-up{
+                max-width: 100%;
+              }
+              .card{
+                  min-height: 220px;
+              }
+          }
+      }
+  }
 }

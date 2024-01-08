@@ -27,8 +27,12 @@ function NavBar() {
                 {Object.entries(DataHelper?.SECTIONS).map(
                   ([sec, value], index) => (
                     // eslint-disable-next-line react/no-array-index-key
-                    <Nav.Link key={index + 1} href={value?.href || "#"}>
-                      {sec}
+                    <Nav.Link
+                      className="fw-6"
+                      key={index + 1}
+                      href={value?.href || "#"}
+                    >
+                      {sec.toLocaleUpperCase()}
                     </Nav.Link>
                   ),
                 )}

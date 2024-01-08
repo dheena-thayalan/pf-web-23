@@ -15,17 +15,4 @@
         justify-content: start !important;
         left: -2.8% !important;
     }
-    .carousel-item{
-        min-height: 450px;
-        .d-flex{
-            justify-content: space-evenly;
-            gap: 20px;
-            .card-container{
-                max-width: 33%;
-                .card{
-                    min-height: 220px;
-                }
-            }
-        }
-    }
 }

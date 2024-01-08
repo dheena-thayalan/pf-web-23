@@ -12,16 +12,12 @@ function Banner() {
   };
 
   return (
-    <section
-      className="banner-continuer"
-      id="home"
-      style={{ backgroundImage: `url('assets/banner.gif')` }}
-    >
+    <section className="banner-continuer" id="home">
       <div className="banner d-flex-warp">
         <div className={`banner-content ${isVideoPlaying ? "visible" : ""}`}>
           <div
             dangerouslySetInnerHTML={{
-              __html: DataHelper?.SECTIONS?.Home?.banner || "",
+              __html: DataHelper?.SECTIONS?.home?.banner || "",
             }}
           />
           <Button label="Play Intro" type="button" onClick={handlePlayIntro} />

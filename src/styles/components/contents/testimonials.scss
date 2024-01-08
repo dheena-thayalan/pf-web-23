@@ -1,6 +1,7 @@
 .testimonials-continuer{
     .carousel-item,.carousel-inner{
-        height: 250px;
+        height: 100%;
+        min-height: 350px;
     }
     .carousel-control-prev,.carousel-control-next{
        span{

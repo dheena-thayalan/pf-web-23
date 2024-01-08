@@ -13,14 +13,16 @@ import twitter from "../assets/images/twitter.svg";
 const DataHelper = {
   SECTIONS: {
     home: {
-     href: "#home"
+     href: "#home",
+     banner: `<div>Hello there, I'm</div>
+     <div class=name>${biography?.s_name || "Dheena"}</div>
+     <div class=info>And I'm a <span class="role">Developer & Contributor</span></div>`
     },
     about: {
       href: "#about"
     },
-    proficiency: { href: "#about"},
-    recognition: { href: "#recognition"},
     project: { href: "#project"},
+    recognition: { href: "#recognition"},
     "conduct Us": { href: "#contact"},
   },
   iconMap: {

@@ -19,6 +19,7 @@ const CardCarousel = ({ data, cardsPerSlide = 3, type, interval }) => {
     }
   };
   
+  const cardsPerSlideResponsive = window.innerWidth < 1200 ? 1 : cardsPerSlide;
 
   return (
     <div className="carousel-container">
@@ -28,8 +29,8 @@ const CardCarousel = ({ data, cardsPerSlide = 3, type, interval }) => {
             <div className="d-flex">
               {data
                 .slice(
-                  slideIndex * cardsPerSlide,
-                  (slideIndex + 1) * cardsPerSlide 
+                  slideIndex * cardsPerSlideResponsive,
+                  (slideIndex + 1) * cardsPerSlideResponsive 
                 )
                 .map((item, cardIndex) => (
                   getContent(cardIndex,item)
