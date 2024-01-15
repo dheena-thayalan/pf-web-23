@@ -13,6 +13,7 @@ const InputTextArea = ({
   className,
   style,
   key,
+  validation,
   ...restProps
 }) => {
 
@@ -28,36 +29,33 @@ const InputTextArea = ({
 
   const handleInputChange = (e) => {
     const inputValue = e.target.value;
-
-    // clear previous error
+  
+    // Clear previous error
     setError('');
-
-    if (type === 'email') {
-      // basic email validation
-      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(inputValue)) {
-        setError('*Invalid email address');
-      }
+    validation(false);
+  
+    switch (type) {
+      case 'email':
+        // Basic email validation
+        if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(inputValue)) {
+          setError('*Invalid email address');
+          validation(true);
+        }
+        break;
+      case 'number':
+        // Basic number validation
+        // eslint-disable-next-line no-restricted-globals
+        if (isNaN(inputValue)) {
+          setError('*Invalid number');
+          validation(true);
+        }
+        break;
+      default:
+        break;
     }
-    if (type === 'number') {
-      // basic number validation
-      // eslint-disable-next-line no-restricted-globals
-      if (isNaN(inputValue)) {
-        setError('*Invalid number');
-      }
-    }
-
-    if(type !== 'email'){
-      const specialCharacterRegex = /[!@#$%^&*(),.?":{}|<>]/;
-      if (specialCharacterRegex.test(inputValue)) {
-        setError('*Special characters are not allowed');
-        return;
-      }
-    }
-
-    // continue with the onChange callback if validations pass
-    onChange(e);
+    onChange(inputValue)
   };
-
+  
   return (
     <div key={key||0}>
       <label>{label}</label>

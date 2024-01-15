@@ -8,7 +8,7 @@ const Project = () => {
   return (
     <section className='project-container' id="project">
           <h2 className="section-heading">Project </h2>
-           <CardCarousel data={carouselData} cardsPerSlide={3} type="card" interval={3000} />
+           <CardCarousel data={carouselData} cardsPerSlide={3} type="card" interval={4000} />
     </section>
   )
 }

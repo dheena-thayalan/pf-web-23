@@ -5,8 +5,10 @@
 export const biography = {
   name: "DheenaThayalan M",
   s_name: "Dheena",
-  email: "xxxx.gmail.com",
-  mobile_no: "1025453525342",
+  email: "dheenathayalan2023.gmail.com",
+  location:"Tamilnadu,India",
+  mobile_no: "+91 70101135716",
+  resume:"https://drive.google.com/file/d/1jebmpaCMUthI2rM7DrOnL4jqBs0x5Nu5/view?usp=sharing",
   // If you don't have an EmailJS account, you need to sign up.
   // follow this *** https://www.emailjs.com/docs/examples/reactjs/
   email_template_key:"template_a2a2k4k",

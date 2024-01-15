@@ -12,6 +12,20 @@
        @include for-laptop-up{
           padding: 40px 0 0 12px;
         }
+        .email a,.phone a{
+            display: flex;
+            color: #000 !important;
+            &:hover{
+             color: var(--primary-1) !important;
+             font-weight: bold;
+            }
+            img{
+                width:25px;
+                height: 25px;
+                // margin-top: 4px;
+                margin-right: 8px;
+            }
+        }
         .location{
             display: flex;
             img{
