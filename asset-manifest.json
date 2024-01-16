@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pf-web-23/static/css/main.83d93b3a.css",
-    "main.js": "/pf-web-23/static/js/main.0c60e7c9.js",
+    "main.js": "/pf-web-23/static/js/main.1af9e5cc.js",
     "static/js/787.1ed0c42c.chunk.js": "/pf-web-23/static/js/787.1ed0c42c.chunk.js",
     "static/media/dheena_ce.mp4": "/pf-web-23/static/media/dheena_ce.6107955f41dea7c02281.mp4",
     "static/media/person.png": "/pf-web-23/static/media/person.f08a795bb7a18c2e4f79.png",
@@ -17,11 +17,11 @@
     "static/media/facebook.svg": "/pf-web-23/static/media/facebook.ac1ef1c9940883b2ecb9da2a23ca4344.svg",
     "static/media/email.svg": "/pf-web-23/static/media/email.aae37b8d77867b6fad7b0d3d4ae81671.svg",
     "main.83d93b3a.css.map": "/pf-web-23/static/css/main.83d93b3a.css.map",
-    "main.0c60e7c9.js.map": "/pf-web-23/static/js/main.0c60e7c9.js.map",
+    "main.1af9e5cc.js.map": "/pf-web-23/static/js/main.1af9e5cc.js.map",
     "787.1ed0c42c.chunk.js.map": "/pf-web-23/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.83d93b3a.css",
-    "static/js/main.0c60e7c9.js"
+    "static/js/main.1af9e5cc.js"
   ]
 }
