@@ -34,9 +34,9 @@ const About = () => {
               <div className="col-lg-12 quotes">
                 <h2 className="fw-6">{`❝ ${quotes || ""} ❞`} </h2>
               </div>
-              <div className="col-md-6 col-lg-9">
+              <div className="col-md-9 col-sm-12  col-lg-9">
                 <div
-                  className="col-md-6 col-lg-9"
+                  className="col-md-9 col-sm-12 col-lg-9"
                   // eslint-disable-next-line react/no-danger
                   dangerouslySetInnerHTML={{
                     __html: about_me || "",
@@ -44,7 +44,7 @@ const About = () => {
                 />
                 <Media />
               </div>
-              <div className="col-md-6 col-lg-3">
+              <div className="col-md-3 col-sm-12  col-lg-3">
                 <img
                   className="face-img"
                   // eslint-disable-next-line global-require
@@ -60,13 +60,13 @@ const About = () => {
           title: "Qualification & Certification ",
           content: (
             <div className="row who-iam-box">
-              <div className="col-lg-6">
+              <div className="col-lg-6 col-md-6 col-sm-12 ">
                 <CustomList
                   items={MapHook(education, "CERTIFICATION")}
                   title="Educational Qualification"
                 />
               </div>
-              <div className="col-md-6 col-lg-6">
+              <div className="col-md-6 col-sm-12  col-lg-6">
                 <CustomList
                   items={MapHook(certification, "CERTIFICATION")}
                   title="Certification"
@@ -96,10 +96,10 @@ const About = () => {
                   </li>
                 </ul>
               </div>
-              <div className="col-lg-6">
+              <div className="col-md-6 col-sm-12 col-lg-6">
                 <CustomList items={getSkill()} title="Skills" />
               </div>
-              <div className="col-md-6 col-lg-6">
+              <div className="col-md-6 col-sm-12 col-lg-6">
                 <CustomList
                   items={MapHook(language, "LANGUAGE")}
                   title="Language"
