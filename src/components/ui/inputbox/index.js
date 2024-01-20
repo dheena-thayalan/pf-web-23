@@ -53,7 +53,7 @@ const InputTextArea = ({
       default:
         break;
     }
-    onChange(inputValue)
+    onChange(e);
   };
   
   return (

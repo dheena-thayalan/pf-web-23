@@ -46,7 +46,7 @@ const Footer = () => {
   };
 
   const handleInputChange = (e) => {
-    setForm({ ...form, [e.target.name]: e?.target?.value || "" });
+    setForm({ ...form, [e?.target?.name]: e?.target?.value || "" });
     e.Stoppropagation();
   };
 
@@ -72,7 +72,7 @@ const Footer = () => {
                 name={key}
                 key={index}
                 validation={(vl) => handleValidation(vl, key)}
-                onChange={handleInputChange}
+                onChange={(e)=>handleInputChange(e)}
                 className="custom-input"
                 maxLength={50}
               />
