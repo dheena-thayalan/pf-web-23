@@ -23,8 +23,8 @@ const StarRating = ({ rating, totalStars, onRatingChange }) => {
 };
 
 StarRating.propTypes = {
-  rating: PropTypes.number.isRequired,
-  totalStars: PropTypes.number.isRequired,
+  rating: PropTypes.number,
+  totalStars: PropTypes.number,
   onRatingChange: PropTypes,
 };
 

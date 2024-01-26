@@ -23,7 +23,7 @@ export const biography = {
    <ul>
      <li>Ping me about anything, I am happy to help</li>
      <li>I'm currently deepening my proficiency in Node.js development</li>
-     <li> And I'm mostly active on LinkedIn and Instagram 💬</li>
+     <li> And I'm mostly active on LinkedIn 💬</li>
    </ul>
    </article>
  </div>`,
@@ -193,11 +193,6 @@ export const biography = {
       href: "https://github.com/dheena-thayalan",
       icons: "github",
       name: "GitHub",
-    },
-    {
-      href: "https://www.instagram.com/_dheena__/",
-      icons: "instagram",
-      name: "Instagram",
     },
     {
       href: "https://www.facebook.com/vj.dheena/",
