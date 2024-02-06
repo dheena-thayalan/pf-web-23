@@ -1,43 +1,45 @@
-/* eslint-disable jsx-a11y/media-has-caption */
-import React, { useState } from "react";
+/* eslint-disable import/no-unresolved */
+import React from "react";
 import Button from "../ui/button/index";
 import DataHelper from "../../utils/DataHelper";
-import DeenaCe from "../../assets/videos/dheena_ce.mp4";
-import loading from "../../assets/images/loading.svg";
+// import DeenaCe from "../../assets/videos/dheena_ce.mp4";
+// import loading from "../../assets/images/loading.svg";
 
 function Banner() {
-  const [isVideoPlaying, setIsVideoPlaying] = useState(false);
-  const [isLoading, setIsLoading] = useState(false);
+  // const [isVideoPlaying, setIsVideoPlaying] = useState(false);
+  // const [isLoading, setIsLoading] = useState(false);
 
   const handlePlayIntro = () => {
-    setIsVideoPlaying(true);
-    setIsLoading(true);
+    window.location.href = "#contact";
+    // setIsVideoPlaying(true);
+    // setIsLoading(true);
   };
 
-  const handleVideoLoadedData = () => {
-    setIsLoading(false);
-  };
+  // const handleVideoLoadedData = () => {
+  //   setIsLoading(false);
+  // };
 
-  const handleVideoError = () => {
-    setIsLoading(false);
-  };
+  // const handleVideoError = () => {
+  //   setIsLoading(false);
+  // };
 
-  const handleVideoEnded = () => {
-    setIsVideoPlaying(false);
-  };
+  // const handleVideoEnded = () => {
+  //   setIsVideoPlaying(false);
+  // };
 
   return (
     <section className="banner-continuer" id="home">
       <div className="banner d-flex-warp">
-        <div className={`banner-content ${isVideoPlaying ? "visible" : ""}`}>
+        {/* ${isVideoPlaying ? "visible" : ""} */}
+        <div className={`banner-content `}>
           <div
             dangerouslySetInnerHTML={{
               __html: DataHelper?.SECTIONS?.home?.banner || "",
             }}
           />
-          <Button label="Play Intro" type="button" onClick={handlePlayIntro} />
+          <Button label="Let's ride" type="button" onClick={handlePlayIntro} />
         </div>
-        <div className={`intro-video ${isVideoPlaying ? "visible" : ""}`}>
+        {/* <div className={`intro-video ${isVideoPlaying ? "visible" : ""}`}>
           {isVideoPlaying && (
             <>
               {isLoading && (
@@ -57,7 +59,7 @@ function Banner() {
               </video>
             </>
           )}
-        </div>
+        </div> */}
       </div>
     </section>
   );

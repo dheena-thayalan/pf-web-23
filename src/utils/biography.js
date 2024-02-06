@@ -5,10 +5,10 @@
 export const biography = {
   name: "DheenaThayalan M",
   s_name: "Dheena",
-  email: "dheenathayalan2023.gmail.com",
+  email: "dheenathayalanjob.gmail.com",
   location:"Tamilnadu,India",
   mobile_no: "+91 70101135716",
-  resume:"https://drive.google.com/file/d/1jebmpaCMUthI2rM7DrOnL4jqBs0x5Nu5/view?usp=sharing",
+  resume:"https://drive.google.com/file/d/1pHZ1_tukS1qp0TuGedoGt9AOSkF2yD77/view?usp=sharing",
   // If you don't have an EmailJS account, you need to sign up.
   // follow this *** https://www.emailjs.com/docs/examples/reactjs/
   email_template_key:"template_a2a2k4k",
@@ -139,28 +139,28 @@ export const biography = {
   projects: [
     {
       name: "CEAuthor(RLM)",
-      description:"CEAuthor streamlines training with 1,000+ ready-to-use components for HR, safety, and compliance. Effortlessly create engaging, customizable online courses for efficient training in minutes",
+      description:"CEAuthor provides e-learning courses with 50+ interactive features for engaging learning experiences. Our platform includes an author dashboard for instructors to manage courses, view learner reports, and track progress.",
       link: "private",
       status: "on-going",
       technology: ["Angular11,postman,ANTD,Bootstrap", "SCSS"],
     },
     {
       name: "CEAssets",
-      description:"Developed a versatile assets library for images, GIFs, audio, and videos, featuring a unique capability to seamlessly create assets using OpenAI integration. This significantly improved user experience by simplifying and streamlining the content creation process.",
+      description:"Developed a versatile assets library for images, GIFs, audio, and videos, featuring a unique capability to seamlessly create assets using mid-journey AI integration. This significantly improved user experience by simplifying and streamlining the content creation process.",
       link: "private",
       status: "on-going",
       technology: ["Angular11,postman,ANTD,Bootstrap", "SCSS"],
     },
     {
       name: "Anti-Money Laundering (AML)",
-      description:"This application provides training, guiding organizations through steps, evaluating risk scores, and generating program policy certificates for simplified compliance in Anti-Money Laundering",
+      description:"This application guides employees and organizations through training, assesses risk scores, and generates compliance certificates and pdf reports, playing a pivotal role in preventing financial crimes.",
       link: "private",
       status: "on-going",
       technology: ["Angular11,postman,ANTD,Bootstrap", "SCSS"],
     },
     {
       name: "Logistic",
-      description:"Cloud-based TMS (Transport Management System)  is a logistics platform that uses technology to help businesses plan, execute and optimize the physical movement of goods, both incoming and outgoing, and making sure the shipment is compliant, proper documentation is managed",
+      description:"A cloud-based Transport Management System (TMS) is a logistics platform that employs technology to assist businesses in planning, executing, and optimizing the movement of goods. It ensures compliance and manages documentation for both incoming and outgoing shipments.",
       link: "private",
       status: "on-going",
       technology: ["Angular11,postman,ANTD,Bootstrap", "SCSS"],
