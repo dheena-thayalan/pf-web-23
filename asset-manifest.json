@@ -1,9 +1,8 @@
 {
   "files": {
     "main.css": "/pf-web-23/static/css/main.ed88976a.css",
-    "main.js": "/pf-web-23/static/js/main.e0399b38.js",
+    "main.js": "/pf-web-23/static/js/main.1d7d913c.js",
     "static/js/787.1ed0c42c.chunk.js": "/pf-web-23/static/js/787.1ed0c42c.chunk.js",
-    "static/media/dheena_ce.mp4": "/pf-web-23/static/media/dheena_ce.6107955f41dea7c02281.mp4",
     "static/media/person.png": "/pf-web-23/static/media/person.f08a795bb7a18c2e4f79.png",
     "static/media/phone.svg": "/pf-web-23/static/media/phone.cbaeec9735aba374a3b3a8c3e7614c30.svg",
     "static/media/github.svg": "/pf-web-23/static/media/github.4ff4e6de2c8f1d9e1fe1d213219adde2.svg",
@@ -16,13 +15,12 @@
     "static/media/linkedin.svg": "/pf-web-23/static/media/linkedin.0ab6dc4702d59b3d05e9059abbba270d.svg",
     "static/media/facebook.svg": "/pf-web-23/static/media/facebook.ac1ef1c9940883b2ecb9da2a23ca4344.svg",
     "static/media/email.svg": "/pf-web-23/static/media/email.aae37b8d77867b6fad7b0d3d4ae81671.svg",
-    "static/media/loading.svg": "/pf-web-23/static/media/loading.603fc953630f51d19ab61e8249705b63.svg",
     "main.ed88976a.css.map": "/pf-web-23/static/css/main.ed88976a.css.map",
-    "main.e0399b38.js.map": "/pf-web-23/static/js/main.e0399b38.js.map",
+    "main.1d7d913c.js.map": "/pf-web-23/static/js/main.1d7d913c.js.map",
     "787.1ed0c42c.chunk.js.map": "/pf-web-23/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ed88976a.css",
-    "static/js/main.e0399b38.js"
+    "static/js/main.1d7d913c.js"
   ]
 }
