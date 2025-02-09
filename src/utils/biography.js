@@ -7,8 +7,8 @@ export const biography = {
   s_name: "Dheena",
   email: "dheenathayalanjob.gmail.com",
   location:"Tamilnadu,India",
-  mobile_no: "+91 70101135716",
-  resume:"https://drive.google.com/file/d/1pHZ1_tukS1qp0TuGedoGt9AOSkF2yD77/view?usp=sharing",
+  mobile_no: "+91 70101357216",
+  resume:"https://drive.google.com/file/d/1S6eoQDRLMdKqTuE4OUgxVdOL96Z0n0MF/view?usp=drive_link",
   // If you don't have an EmailJS account, you need to sign up.
   // follow this *** https://www.emailjs.com/docs/examples/reactjs/
   email_template_key:"template_a2a2k4k",
@@ -17,19 +17,28 @@ export const biography = {
   quotes:"For me, coding is the key to turning awesome concepts into reality",
   about_me: `<div class=profile-container>
   <article>
-   <span>Hey there! It's Dheena, UI developer from India. Also I do some backend development.</span>
-   <span>I explore diverse tech realms, prioritizing user experience, robust architecture, and top-notch code quality in my creations.</span>
-   <span> I am also an open-source enthusiast. I learned a lot from the open-source community and I love to collaborateand share knowledge in open-source projects.</span>
+   <span>Hey there! I'm Dheena, an experienced Web Developer from India.</span>
+   <span>I specialize in building features, enhancing user experiences, and solving challenges in real-time. Known for quick problem-solving, delivering high-quality code, and creating user-friendly interfaces.</span>
+   <span>Skilled in both frontend and backend technologies, with a focus on React, JavaScript, and Node.js. Passionate about innovation and working collaboratively to deliver effective solutions.</span>
    <ul>
      <li>Ping me about anything, I am happy to help</li>
-     <li>I'm currently deepening my proficiency in Node.js development</li>
+     <li>I'm currently deepening my proficiency in Java(Spring boot)</li>
      <li> And I'm mostly active on LinkedIn 💬</li>
    </ul>
    </article>
  </div>`,
   education: [
     {
-      name: "BSC Computer Technology",
+      name: "Master of Computer Applications (MCA)",
+      percentage: " 67% ",
+      year: "2023-2024",
+      institute: "Bharathiar University",
+      branch: "Computer Applications",
+      url: "https://stc.ac.in/",
+      address: " Coimbatore",
+    },
+    {
+      name: "Bachelor of Computer Technology (BSC)",
       percentage: " 69% ",
       year: "2017-2020",
       institute: "Sree Saraswathi Thyagaraja College",
@@ -38,7 +47,7 @@ export const biography = {
       address: " Pollachi ",
     },
     {
-      name: "HSC",
+      name: "Higher Secondary Certificate (HSC)",
       percentage: " 68% ",
       year: "2010-2015",
       institute: "RKR Higher Secondary School",
@@ -46,7 +55,7 @@ export const biography = {
       address: " Udumalpet ",
     },
     {
-      name: "SSLC",
+      name: "School Leaving Certificate (SSLC)",
       percentage: " 91.02% ",
       year: "2010-2015",
       institute: "Government High School",
@@ -92,9 +101,16 @@ export const biography = {
       description:
         "One of the fastest growing companies in the industry and proficiency in areas such as mobile and web app design and development.",
       address: "Bengaluru",
-      role: "Software Developer",
+      role: "Software Engineer",
       technology: [
-        "react",
+        "ReactJs",
+        "JavaScript",
+        "Redux",
+        "Web Application",
+        "CSS",
+        "HTML",
+        "SCORM",
+        "React",
         "angular",
         "nodejs",
         "postman",
@@ -180,7 +196,7 @@ export const biography = {
     //   name: 'mail'
     // },
     {
-      href: "https://www.linkedin.com/in/dheenathayalan-m-8a198a1a3/detail/contact-info/",
+      href: "https://www.linkedin.com/in/dheena-m/",
       icons: "linkedin",
       name: "Linkedin",
     },
