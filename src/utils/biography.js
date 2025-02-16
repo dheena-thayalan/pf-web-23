@@ -8,7 +8,7 @@ export const biography = {
   email: "dheenathayalanjob.gmail.com",
   location:"Tamilnadu,India",
   mobile_no: "+91 7010135726",
-  resume:"https://drive.google.com/file/d/1S6eoQDRLMdKqTuE4OUgxVdOL96Z0n0MF/view?usp=drive_link",
+  resume:"https://drive.google.com/file/d/1UqNp_s25KMGik75ttyyjjJ-2Db4SQ9LD/view?usp=sharing",
   // If you don't have an EmailJS account, you need to sign up.
   // follow this *** https://www.emailjs.com/docs/examples/reactjs/
   email_template_key:"template_a2a2k4k",
@@ -113,6 +113,8 @@ export const biography = {
         "React",
         "angular",
         "nodejs",
+        "Molecular",
+        "Mongoose",
         "postman",
         "filezilla",
         "Ant-ui",
